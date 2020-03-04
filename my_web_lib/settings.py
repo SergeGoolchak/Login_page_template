@@ -25,7 +25,7 @@ SECRET_KEY = 'e-&ij2br&!hplvqm!g=&lo8%^+jeo2k$a@yv_+njgy4!4vi(&5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', 'http://ramosgoo.pythonanywhere.com/']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', 'ramosgoo.pythonanywhere.com']
 
 
 # Application definition
