@@ -10,7 +10,7 @@ class LoginView(View):
 
 	def post(self, request):
 		html = '<html><body>'
-		for key, value in request.POST.item():
+		for key, value in request.POST.items():
 			html += f'{key}: {value}<br>'
 		html += '</body></html>'
 		return HttpResponse(html)
